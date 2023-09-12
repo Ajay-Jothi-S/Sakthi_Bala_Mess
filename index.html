@@ -590,9 +590,21 @@
               return new bootstrap.Popover(popoverTriggerEl)
             })
             </script>
-            <script src="basic.js"></script>
-            <p id="inc"></p>
-            <button onclick="hel()">+</button>
-            <button onclick="hell()">-</button>
+            <script>
+function hel(){
+    x = Number(document.getElementById("eja").value);
+    y=x+1;
+    x=y;
+    document.getElementById("eja").value=x;
+    
+}
+function hell(){
+    x = Number(document.getElementById("eja").value);
+    y=x-1;
+    x=y;
+    document.getElementById("eja").value=x;
+    
+}
+</script>
 </body>
 </html>
